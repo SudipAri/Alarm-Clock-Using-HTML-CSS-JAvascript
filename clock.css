@@ -15,7 +15,7 @@ body {
     width: 60%;
     height: 60%;
     margin: 0 auto;
-    background: url('/src/pexels-pixabay-36351.jpg');
+    background: url("src/pexels-pixabay-36351.jpg");
     background-size: 100% 100%;
 }
 
