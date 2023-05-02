@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:50px;
+}
+
+
+
+body {
+    border: 8px solid lightgreen;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    background: url('/src/pexels-pixabay-36351.jpg');
+    background-size: 100% 100%;
+}
+
+#clock {
+    height:120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+h3 {
+    text-align:center;
+    font-size: 40px;
+
+}
+
+#alarm-container {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 1.5em;
+    color: white;
+    
+
+  }
+
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:right;
+    background-color:rgb(105, 111, 221);
+    margin-top:10px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+#clearButton {
+    float:left;
+    background-color:rgb(250, 3, 3);
+    margin-top:10px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
